@@ -84,6 +84,7 @@ export const module = {
                     browsers: '> 0.25%, not dead',
                   },
                   useBuiltIns: 'usage',
+                  corejs : '3.0.0',
                   modules: false,
                 },
               ],

@@ -30,7 +30,8 @@ export const module = {
                   targets: {
                     browsers: '> 0.25%, not dead',
                   },
-                  useBuiltIns: 'usage',
+                  useBuiltIns: 'entry',
+                  corejs : '3.0.0',
                   modules: false,
                 },
               ],
